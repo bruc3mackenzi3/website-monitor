@@ -1,0 +1,18 @@
+{
+  "monitor_interval": 60,
+  "websites": [
+    "https://www.google.ca",
+    "https://www.bing.com",
+    "https://ca.yahoo.com/"
+  ],
+  "kafka": {
+    "server": "kafka-monitor-mackenzbb-bd03.aivencloud.com:14541",
+    "topic": "monitor_events"
+  },
+  "postgres": {
+    "host": "postgres-monitor-mackenzbb-bd03.aivencloud.com",
+    "db": "defaultdb",
+    "username": "avnadmin",
+    "table": "monitor_stats"
+  }
+}

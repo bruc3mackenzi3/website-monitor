@@ -1,0 +1,3 @@
+auth/
+.vscode/
+**/__pycache__/
