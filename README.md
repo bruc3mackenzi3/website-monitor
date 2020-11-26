@@ -26,7 +26,7 @@ Stop it at any time with Ctrl+C
 
 Run the unit tests:
 ```
-PYTHONPATH=. pytest
+[Pipenv run] PYTHONPATH=. pytest
 ```
 
 
@@ -39,6 +39,7 @@ PYTHONPATH=. pytest
 * The solution has been made "Open source ready" by providing simple, clear instructions and an open source license.
 * For client libraries Apache Kafka's `kafka-python` and `Psycopg2` are used.  Other 3rd party libraries utilized include `aiohttp` and `Pytest`.
 * Where solutions from online are used attribution is included in code comments.
+
 
 ## Shortcomings
 * The PostgreSQL INSERT queries were implemented for ease and not scalability.  For instance auto commit is enabled causing new records written for each INSERT call.
